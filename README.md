@@ -5,7 +5,9 @@ Requisito principal:
 Tener instalado GCC con soporte para OpenMP 
 
 Desde el terminal ejecutamos una de estas 2 opciones, desde mi Windows solo me funciona 1:
+
 gcc dijkstra_paralelo.c -o programa.exe -fopenmp -mconsole
+
 gcc -fopenmp -o programa dijkstra_paralelo.c
 
 luego:
